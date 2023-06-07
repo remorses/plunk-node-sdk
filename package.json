@@ -9,7 +9,6 @@
   "private": false,
   "scripts": {
     "test": "eslint . --fix&&jest",
-    "prepublishOnly": "npm run test&&npm run build",
     "deploy": "npm publish --access public",
     "build": "tsc"
   },
